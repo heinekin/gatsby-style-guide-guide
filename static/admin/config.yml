@@ -14,13 +14,6 @@ collections:
     folder: "content/guidelines"
     create: true
     fields:
-      - {label: "title", name: "title", widget: "string"}
-      - {label: "description", name: "description", widget: "markdown"}
-  - name: "components"
-    label: "Components"
-    folder: "content/components"
-    create: true
-    fields:
       - {label: "layout", name: "layout", widget: "string"}
       - {label: "type", name: "type", widget: "string"}
       - {label: "title", name: "title", widget: "string"}
