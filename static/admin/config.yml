@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: heinekin/gatsby-style-guide-guide
   branch: netlify-cms
 
 publish_mode: editorial_workflow
