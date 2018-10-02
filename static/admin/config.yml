@@ -1,3 +1,17 @@
 backend:
   name: git-gateway
   branch: netlify-cms
+
+publish_mode: editorial_workflow
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "guidelines"
+    label: "Guidelines"
+    folder: "content/guidelines"
+    create: true
+    fields:
+      - {label: "title", name: "title", widget: "string"}
+      - {label: "description", name: "description", widget: "string"}
