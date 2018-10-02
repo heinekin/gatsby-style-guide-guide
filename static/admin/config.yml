@@ -15,4 +15,4 @@ collections:
     create: true
     fields:
       - {label: "title", name: "title", widget: "string"}
-      - {label: "description", name: "description", widget: "string"}
+      - {label: "description", name: "description", widget: "markdown"}
