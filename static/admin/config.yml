@@ -16,3 +16,16 @@ collections:
     fields:
       - {label: "title", name: "title", widget: "string"}
       - {label: "description", name: "description", widget: "markdown"}
+  - name: "components"
+    label: "Components"
+    folder: "content/components"
+    create: true
+    fields:
+      - {label: "layout", name: "layout", widget: "string"}
+      - {label: "type", name: "type", widget: "string"}
+      - {label: "title", name: "title", widget: "string"}
+      - {label: "group", name: "group", widget: "string"}
+      - {label: "path", name: "path", widget: "string"}
+      - {label: "status", name: "status", widget: "string"}
+      - {label: "description", name: "description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
